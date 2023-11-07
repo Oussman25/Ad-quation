@@ -1,0 +1,50 @@
+body{
+    font-family: "Roboto";
+}
+
+header{
+    background-image: url("../images/bg_header.jpg");
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    margin: auto;
+    width: 70vw;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-transform: uppercase;
+    width: 70%;
+}
+nav input{
+    margin-left: auto;
+}
+section{
+    width: 70%;
+    margin: auto;
+}
+.choix1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.choix1 div{
+    text-align: center;
+}
+
+.soupe{
+    background-image: url("../images/soupe.jpg");
+}
+.salade{
+    background-image: url("../images/salade.jpg");
+}
+.dessert{
+    background-image: url("../images/dessert.jpg");
+}
